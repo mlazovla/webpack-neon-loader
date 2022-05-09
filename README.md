@@ -11,13 +11,13 @@ npm install --save-dev webpack-neon-loader
 ### Inline
 
 ```js
-const json = require('webpack-neon-loader!./file.json');
+const neon = require('webpack-neon-loader!./file.json');
 ```
 
 ### Configuration (recommended)
 
 ```js
-const json = require('./file.neon');
+const neon = require('./file.neon');
 ```
 
 **webpack.config.js**
@@ -26,7 +26,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.neon/,
+        test: /\.neon$/,
         loader: 'webpack-neon-loader'
       }
     ]
