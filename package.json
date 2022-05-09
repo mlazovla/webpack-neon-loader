@@ -1,0 +1,24 @@
+{
+  "name": "webpack-neon-loader",
+  "version": "0.1.0",
+  "author": "Vladimír Mlázovský <mlazovla@gmail.com>",
+  "description": "neon loader module for webpack",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0",
+    "neon-js": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlazovla/webpack-neon-loader"
+  },
+  "keywords": [
+    "neon",
+    "nette",
+    "webpack",
+    "loader"
+  ]
+}
