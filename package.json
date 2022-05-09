@@ -1,6 +1,6 @@
 {
   "name": "webpack-neon-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Vladimír Mlázovský <mlazovla@gmail.com>",
   "description": "neon loader module for webpack",
   "license": "MIT",
@@ -10,7 +10,7 @@
   "devDependencies": {
     "standard-version": "^4.4.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "neon-js": "^1.1.2"
   },
   "repository": {
